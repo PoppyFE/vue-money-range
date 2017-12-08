@@ -3,6 +3,10 @@
 A Vue component to money-range
 一个金额范围插件
 
+## 前置条件
+
+###项目中使用了element-ui
+
 ## 安装
 
 ```JS
@@ -12,6 +16,9 @@ npm install vue-money-range -S
 ## 使用
 
 ```js
+// 加载element-ui样式表
+import 'element-ui/lib/theme-chalk/index.css';
+
 // ES6
 import vueMoneyRange from 'vue-money-range'
 // require

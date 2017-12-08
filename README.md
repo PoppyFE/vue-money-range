@@ -15,12 +15,12 @@ npm install vue-money-range -S
 // ES6
 import vueMoneyRange from 'vue-money-range'
 // require
-const vuePayKeyboard = require('vue-money-range')
+const vueMoneyRange = require('vue-money-range')
 
-Vue.use(vuePayKeyboard)
+Vue.use(vueMoneyRange)
 
 // 作为组件的方式使用
-<vue-pay-keyboard></vue-pay-keyboard>
+<money-range></money-range>
 ```
 
 ### 配置
